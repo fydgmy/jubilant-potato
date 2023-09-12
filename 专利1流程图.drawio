@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T14:19:22.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Lrl_JLuuXskO9cUH01QQ" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T15:39:34.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-zhf1GuF2LQTZbWBH0v5" version="21.7.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1808" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="890" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -69,6 +69,74 @@
         </mxCell>
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-21" value="参照基于LLM生成的目标框架代码，优化中间代码，生成最终代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="500" width="270" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="l15jO1R1nCVGTz_oCnGz" name="第 2 页">
+    <mxGraphModel dx="890" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dE50-UvMp8fBS47XUs6d-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-1" target="dE50-UvMp8fBS47XUs6d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-1" target="dE50-UvMp8fBS47XUs6d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-1" value="前端项目加载，识别项目文件并划分为逻辑处理代码文件和用户界面定义代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-2" target="dE50-UvMp8fBS47XUs6d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-2" value="逻辑处理文件的语法分析和语义提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-3" target="dE50-UvMp8fBS47XUs6d-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-3" value="用户界面定义文件的语法分析和语义提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-4" target="dE50-UvMp8fBS47XUs6d-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-4" value="语句拆解为词法单元，生成抽象语法树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-5" target="dE50-UvMp8fBS47XUs6d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-5" value="语句拆解为层次结构，生成文档对象模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-6" target="dE50-UvMp8fBS47XUs6d-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-6" value="代码含义解析；执行类型检查、作用域分析、符号解析、继承和实现分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-7" target="dE50-UvMp8fBS47XUs6d-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-7" value="代码含义解析；识别节点名称、类型和嵌套关系；解析数据绑定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-8" target="dE50-UvMp8fBS47XUs6d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-8" value="爬取迁移前后前端框架软件库相关信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE50-UvMp8fBS47XUs6d-9" target="dE50-UvMp8fBS47XUs6d-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-9" value="将前后框架控件库基于各层面逐一匹配，生成迁移规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="550" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dE50-UvMp8fBS47XUs6d-19" value="基于语法树节点对待迁移语句定位，迁移生成目标代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="630" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
