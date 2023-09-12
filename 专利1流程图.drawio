@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T13:58:30.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="PXBtk3BBziFfcHC4SaO1" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T14:18:51.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ipl3zw5of4fOQUftUY3K" version="21.7.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="626" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-2" target="rbufSnZRN1GEDMOjBrBJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-2" value="原前端项目文件加载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="50" width="260" height="50" as="geometry" />
         </mxCell>
@@ -19,16 +22,22 @@
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-5" value="基于语义分析和AST模型实现代码重写器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="320" width="260" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-7" target="rbufSnZRN1GEDMOjBrBJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-7" value="生成中间代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="410" width="260" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-9" target="rbufSnZRN1GEDMOjBrBJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-9" value="将文件识别划分为逻辑处理代码文件和用户界面定义代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="230" y="130" width="260" height="50" as="geometry" />
+          <mxGeometry x="230" y="140" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-10" target="rbufSnZRN1GEDMOjBrBJ-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rbufSnZRN1GEDMOjBrBJ-10" value="外部资料加载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-10" value="官方文档、开源项目等外部资料加载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="50" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-11" target="rbufSnZRN1GEDMOjBrBJ-14">
@@ -37,8 +46,29 @@
         <mxCell id="rbufSnZRN1GEDMOjBrBJ-11" value="LLM微调、增量训练优化，生成定制化大模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="130" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rbufSnZRN1GEDMOjBrBJ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="210" width="260" height="50" as="geometry" />
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-14" target="rbufSnZRN1GEDMOjBrBJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-14" value="提示语多轮输入提取上下文信息、分割代码文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="200" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-16" target="rbufSnZRN1GEDMOjBrBJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-16" value="分析代码块功能、基于功能实现目标框架代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="270" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-18" value="封装多轮提示语，实现链式调用自动化处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="340" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rbufSnZRN1GEDMOjBrBJ-20" target="rbufSnZRN1GEDMOjBrBJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-20" value="代码内容合并为项目文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="410" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rbufSnZRN1GEDMOjBrBJ-21" value="参照基于LLM生成的目标框架代码，优化中间代码，生成最终代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="500" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
