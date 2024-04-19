@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T08:29:04.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="m5rbWiWRGT71SbNUzQ0f" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T08:37:23.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4t0BCIGhGtfmFP5FwV_m" version="24.2.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="828" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="820" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -26,16 +26,64 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PwiLimf1Ut1b0HFuoq82-5" value="制定实体关系分类规则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="50" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="40" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PwiLimf1Ut1b0HFuoq82-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.465;exitY=1.059;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PwiLimf1Ut1b0HFuoq82-5" target="PwiLimf1Ut1b0HFuoq82-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="439.65999999999997" y="92.36000000000001" as="sourcePoint" />
             <mxPoint x="440" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PwiLimf1Ut1b0HFuoq82-7" value="调用LLM对文本内容命名实体识别和关系分类" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="130" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="150" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-8" value="实体关系规范化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="PwiLimf1Ut1b0HFuoq82-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449.66" y="200" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-10" value="生成航空电子领域知识库" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.66" y="300" as="sourcePoint" />
+            <mxPoint x="229.66" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-12" value="&lt;div style=&quot;orphans: 4; text-align: start;&quot;&gt;航空电子系统知识图谱&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449.66" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-15" value="爬取缺陷样例数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="680" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-16" value="数据结构化处理、向量形式存储" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="590" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-17" value="生成航空电子系统缺陷样例知识库" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="500" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PwiLimf1Ut1b0HFuoq82-15" target="PwiLimf1Ut1b0HFuoq82-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="600" as="sourcePoint" />
+            <mxPoint x="350" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PwiLimf1Ut1b0HFuoq82-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="PwiLimf1Ut1b0HFuoq82-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.66" y="590" as="sourcePoint" />
+            <mxPoint x="229.66" y="550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
