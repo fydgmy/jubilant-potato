@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T08:40:49.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ZiMp0ipM6y8NrNqzG5sr" version="24.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-08T08:45:39.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="x4YYfOlutQjFuhLkdQMK" version="24.2.7" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1442" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,7 +420,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CnuN7Wib8MCvDlBpSfKG" name="流程图">
+  <diagram id="CnuN7Wib8MCvDlBpSfKG" name="算法流程图">
     <mxGraphModel dx="1281" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -510,6 +510,23 @@
         </mxCell>
         <mxCell id="66JlYOUAYj9OAfvfG3OP-22" value="ROLL OUT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mue79vb2f1oM62xyf1cm" name="专利方法图">
+    <mxGraphModel dx="551" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WQ3KpnoIrFgLIHRiBnFd-1" value="专业领域数据收集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ3KpnoIrFgLIHRiBnFd-2" value="缺陷样例数据收集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ3KpnoIrFgLIHRiBnFd-3" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
