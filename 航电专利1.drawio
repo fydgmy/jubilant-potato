@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T08:33:49.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6YQ6TwwSTcme1J0704eW" version="24.3.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-05-10T11:04:46.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="aa005tF-7UEe8XaiFt08" version="24.3.1" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2108" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,7 +465,7 @@
         <mxCell id="66JlYOUAYj9OAfvfG3OP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="66JlYOUAYj9OAfvfG3OP-5" target="66JlYOUAYj9OAfvfG3OP-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="66JlYOUAYj9OAfvfG3OP-5" value="选择该节点最大的UCT值得子节点作为当前节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="66JlYOUAYj9OAfvfG3OP-5" value="选择该节点最大的UCT值的子节点作为当前节点" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="66JlYOUAYj9OAfvfG3OP-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="66JlYOUAYj9OAfvfG3OP-9" target="66JlYOUAYj9OAfvfG3OP-14" edge="1">
@@ -521,39 +521,126 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mue79vb2f1oM62xyf1cm" name="专利方法图">
-    <mxGraphModel dx="734" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="883" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WQ3KpnoIrFgLIHRiBnFd-1" value="专业领域数据收集" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="Dric2lFEbdiKvfO-32tV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQ3KpnoIrFgLIHRiBnFd-1" target="WQ3KpnoIrFgLIHRiBnFd-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WQ3KpnoIrFgLIHRiBnFd-2" value="缺陷样例数据收集" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WQ3KpnoIrFgLIHRiBnFd-1" value="专业领域数据收集" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQ3KpnoIrFgLIHRiBnFd-2" target="WQ3KpnoIrFgLIHRiBnFd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WQ3KpnoIrFgLIHRiBnFd-2" value="缺陷样例数据收集" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQ3KpnoIrFgLIHRiBnFd-3" target="WQ3KpnoIrFgLIHRiBnFd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WQ3KpnoIrFgLIHRiBnFd-3" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQHZ3Md0IS41Cd957F3P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQ3KpnoIrFgLIHRiBnFd-4" target="IQHZ3Md0IS41Cd957F3P-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WQ3KpnoIrFgLIHRiBnFd-4" value="向量数据库构建" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQHZ3Md0IS41Cd957F3P-1" target="IQHZ3Md0IS41Cd957F3P-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQHZ3Md0IS41Cd957F3P-1" value="缺陷问题获取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IQHZ3Md0IS41Cd957F3P-2" value="缺陷问题获取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="Dric2lFEbdiKvfO-32tV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQHZ3Md0IS41Cd957F3P-3" target="IQHZ3Md0IS41Cd957F3P-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQHZ3Md0IS41Cd957F3P-3" value="根据推理状态文本检索相关文本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IQHZ3Md0IS41Cd957F3P-4" value="调用LLM得出若干推理文本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="Dric2lFEbdiKvfO-32tV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQHZ3Md0IS41Cd957F3P-5" target="Dric2lFEbdiKvfO-32tV-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IQHZ3Md0IS41Cd957F3P-5" value="调用LLM评估推理文本价值评分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="IQHZ3Md0IS41Cd957F3P-5" value="选取从未选取过的推理状态节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQHZ3Md0IS41Cd957F3P-7" target="IQHZ3Md0IS41Cd957F3P-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQHZ3Md0IS41Cd957F3P-7" value="初始推理状态节点构建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQHZ3Md0IS41Cd957F3P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQHZ3Md0IS41Cd957F3P-8" target="IQHZ3Md0IS41Cd957F3P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQHZ3Md0IS41Cd957F3P-8" value="根据UCT值选择推理状态节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQHZ3Md0IS41Cd957F3P-12" target="IQHZ3Md0IS41Cd957F3P-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQHZ3Md0IS41Cd957F3P-12" value="调用LLM扩展子推理状态节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dric2lFEbdiKvfO-32tV-3" target="Dric2lFEbdiKvfO-32tV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-3" value="调用LLM评估价值得分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-5" value="根据节点得分和查询节点次数反向传播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dric2lFEbdiKvfO-32tV-9" target="Dric2lFEbdiKvfO-32tV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-32" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dric2lFEbdiKvfO-32tV-11">
+          <mxGeometry x="0.0634" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-9" value="是否能完全回答问题？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="290" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-10" value="调用LLM根据当前推理状态节点文本得出答案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dric2lFEbdiKvfO-32tV-15" target="Dric2lFEbdiKvfO-32tV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dric2lFEbdiKvfO-32tV-21">
+          <mxGeometry x="0.2621" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dric2lFEbdiKvfO-32tV-15" target="IQHZ3Md0IS41Cd957F3P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dric2lFEbdiKvfO-32tV-23">
+          <mxGeometry x="0.0267" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-15" value="是否达到预设最大推理步数？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.971;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dric2lFEbdiKvfO-32tV-9" target="Dric2lFEbdiKvfO-32tV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dric2lFEbdiKvfO-32tV-17">
+          <mxGeometry x="-0.1426" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dric2lFEbdiKvfO-32tV-20" value="选取UCT值最大的推理状态路径，调用LLM得出答案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
