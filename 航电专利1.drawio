@@ -797,7 +797,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LUZM0AYWc8r3TWIRGCwN" name="第 7 页">
-    <mxGraphModel dx="705" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1763" dy="2804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1297,10 +1297,10 @@
           <mxGeometry x="1175" y="1560" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-119" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;根据研发流程和所属模块分类、基于样例实体构建知识图谱&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="1480" width="150" height="90" as="geometry" />
+          <mxGeometry x="1380" y="1480" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-120" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;融合生成缺陷知识图谱&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="1650" width="140" height="50" as="geometry" />
+          <mxGeometry x="1420" y="1650" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-119" target="3fvJxd68JOvz2Mvk_GsG-120">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
