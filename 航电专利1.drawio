@@ -960,8 +960,8 @@
             <mxPoint x="1240" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3fvJxd68JOvz2Mvk_GsG-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;根据svn地址与同行评审文件建立关联，实现数据库跨表查询&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="360" width="150" height="120" as="geometry" />
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;基本是对于word的修改，可通过评审表中的修改后内容与word内容相对应&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="350" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;pysvn包/脚本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="650" width="140" height="50" as="geometry" />
@@ -1123,6 +1123,57 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="990" y="1080" as="sourcePoint" />
             <mxPoint x="1040" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-46" target="3fvJxd68JOvz2Mvk_GsG-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="450" as="sourcePoint" />
+            <mxPoint x="1290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-81" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;评审表中不仅有代码文件地址还有dorrs地址，需要进一步提取上下文再把comments关联上&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="485" width="150" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-47" target="3fvJxd68JOvz2Mvk_GsG-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="630" as="sourcePoint" />
+            <mxPoint x="1290" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-83" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;主要是对excel表对应行列的处理 感觉可以暂时先不处理，没有缺陷相关内容，多数为格式问题&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="650" width="150" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-48" target="3fvJxd68JOvz2Mvk_GsG-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="720" as="sourcePoint" />
+            <mxPoint x="1290" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-85" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;有标明DOORS的baseline号和comments针对的行数，通过此获取需求上下文&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="815" width="150" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-49" target="3fvJxd68JOvz2Mvk_GsG-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="810" as="sourcePoint" />
+            <mxPoint x="1290" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-87" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;相当清晰 在comments中都有原文内容，仍需获取需求上下文&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="960" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-50" target="3fvJxd68JOvz2Mvk_GsG-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="990" as="sourcePoint" />
+            <mxPoint x="1290" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-89" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;后期尝试使用多模态大模型处理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1090" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-65" target="3fvJxd68JOvz2Mvk_GsG-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="1080" as="sourcePoint" />
+            <mxPoint x="1290" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
