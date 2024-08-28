@@ -972,8 +972,11 @@
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;外场故障数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="780" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3fvJxd68JOvz2Mvk_GsG-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;C919/AG600/TSS同行评审数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;hardware&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="795" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-43" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;software&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="640" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
