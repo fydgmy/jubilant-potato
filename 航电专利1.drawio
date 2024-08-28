@@ -1299,7 +1299,7 @@
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-119" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;根据研发流程和所属模块分类、基于样例实体构建知识图谱&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="1480" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3fvJxd68JOvz2Mvk_GsG-120" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;和需求样例合并&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-120" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;融合生成缺陷知识图谱&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="1650" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-119" target="3fvJxd68JOvz2Mvk_GsG-120">
@@ -1334,6 +1334,60 @@
         </mxCell>
         <mxCell id="3fvJxd68JOvz2Mvk_GsG-126" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;专业领域文档&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="1650" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-127" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-4" target="3fvJxd68JOvz2Mvk_GsG-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1470" as="sourcePoint" />
+            <mxPoint x="380" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-128" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;数字航空电子技术&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1630" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-129" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;DO-178C&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1710" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-130" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-126" target="3fvJxd68JOvz2Mvk_GsG-128">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="1630" as="sourcePoint" />
+            <mxPoint x="860" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-131" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-126" target="3fvJxd68JOvz2Mvk_GsG-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="1630" as="sourcePoint" />
+            <mxPoint x="860" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-132" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;拆分各个组件和描述，与缺陷样例的专有名词相关联&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1660" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-133" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-129" target="3fvJxd68JOvz2Mvk_GsG-132">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1630" as="sourcePoint" />
+            <mxPoint x="1040" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-134" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-128" target="3fvJxd68JOvz2Mvk_GsG-132">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1630" as="sourcePoint" />
+            <mxPoint x="1040" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-137" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;基于组件模块实体构建知识图谱&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1680" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-132" target="3fvJxd68JOvz2Mvk_GsG-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="1630" as="sourcePoint" />
+            <mxPoint x="1390" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fvJxd68JOvz2Mvk_GsG-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fvJxd68JOvz2Mvk_GsG-137" target="3fvJxd68JOvz2Mvk_GsG-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="1630" as="sourcePoint" />
+            <mxPoint x="1390" y="1580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
