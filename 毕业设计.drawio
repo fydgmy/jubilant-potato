@@ -668,7 +668,7 @@
           <mxGeometry x="230" y="60" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tsVT13c7COKT4-2b9eC_-2" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;账号功能&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="160" width="30" height="170" as="geometry" />
+          <mxGeometry x="80" y="160" width="30" height="170" as="geometry" />
         </mxCell>
         <mxCell id="tsVT13c7COKT4-2b9eC_-3" value="&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;数据收集处理&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="160" width="30" height="170" as="geometry" />
@@ -684,6 +684,30 @@
         </mxCell>
         <mxCell id="tsVT13c7COKT4-2b9eC_-8" value="&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;缺陷预防&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="160" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-9" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;用户注册&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-10" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;邮箱绑定&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-11" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;用户登录&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-12" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;账号信息修改&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-13" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;外部数据收集&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-14" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;数据清洗&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-15" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;数据格式化&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tsVT13c7COKT4-2b9eC_-16" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;用户登录&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="30" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
