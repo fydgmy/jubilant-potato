@@ -28,7 +28,7 @@
           <mxGeometry x="460" y="130" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="95v344-BZGEqV2dCjM4N-8" value="本地数据资源 B&lt;div&gt;SVN&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="460" y="260" width="110" height="70" as="geometry" />
+          <mxGeometry x="460" y="265" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="95v344-BZGEqV2dCjM4N-9" value="远程服务 C&lt;div&gt;互联网内容&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="460" y="380" width="110" height="70" as="geometry" />
@@ -53,6 +53,24 @@
         <mxCell id="95v344-BZGEqV2dCjM4N-18" value="MCP协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="95v344-BZGEqV2dCjM4N-15">
           <mxGeometry x="-0.0298" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=45;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="95v344-BZGEqV2dCjM4N-2" target="95v344-BZGEqV2dCjM4N-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="450" as="sourcePoint" />
+            <mxPoint x="280" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="95v344-BZGEqV2dCjM4N-4" target="95v344-BZGEqV2dCjM4N-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="470" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="95v344-BZGEqV2dCjM4N-5" target="95v344-BZGEqV2dCjM4N-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="230" as="sourcePoint" />
+            <mxPoint x="480" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
