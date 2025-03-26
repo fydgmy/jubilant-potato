@@ -1,9 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="Bsp2av9XndAxbZshPBOx">
-    <mxGraphModel dx="1616" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="710" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="95v344-BZGEqV2dCjM4N-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95v344-BZGEqV2dCjM4N-1" target="95v344-BZGEqV2dCjM4N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-17" value="MCP协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="95v344-BZGEqV2dCjM4N-11">
+          <mxGeometry x="-0.0121" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="95v344-BZGEqV2dCjM4N-1" value="带有MCP客户端的工具如VsCode、IDE、Web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
         </mxCell>
@@ -15,6 +23,37 @@
         </mxCell>
         <mxCell id="95v344-BZGEqV2dCjM4N-5" value="MCP 服务器 C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-6" value="本地数据资源 A&lt;div&gt;JIRA&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-8" value="本地数据资源 B&lt;div&gt;SVN&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-9" value="远程服务 C&lt;div&gt;互联网内容&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95v344-BZGEqV2dCjM4N-1" target="95v344-BZGEqV2dCjM4N-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="450" as="sourcePoint" />
+            <mxPoint x="280" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-16" value="MCP协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="95v344-BZGEqV2dCjM4N-10">
+          <mxGeometry x="-0.0192" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95v344-BZGEqV2dCjM4N-1" target="95v344-BZGEqV2dCjM4N-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="450" as="sourcePoint" />
+            <mxPoint x="280" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="95v344-BZGEqV2dCjM4N-18" value="MCP协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="95v344-BZGEqV2dCjM4N-15">
+          <mxGeometry x="-0.0298" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
